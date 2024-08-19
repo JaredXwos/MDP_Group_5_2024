@@ -9,7 +9,8 @@ RIGHT = 1
 LEFT = -1
 movementlist = [
     (200, 80, LEFT),
-    (150, 0, RIGHT)
+    (150, 0, RIGHT),
+    (200, 30, LEFT)
 ]
 
 
