@@ -4,7 +4,7 @@ sim = Sim(640,Coord(320, 320), 5)
 sim.addcommand(
 #   (distance, turn radius, LEFT/RIGHT)
     (150, None, None),  # go straight
-    (300, 100, RIGHT),
+    (-500, 100, RIGHT),       # go backwards
     (150, None, None),
 )
 sim.addcommand(
